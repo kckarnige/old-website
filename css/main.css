@@ -104,3 +104,24 @@ footer {
   text-decoration: none;
   user-select: none;
 }
+.link {
+  -o-transition:.2s;
+  -ms-transition:.2s;
+  -moz-transition:.2s;
+  -webkit-transition:.2s;
+  transition:.2s;
+  text-decoration: none;
+  color: #ffffff;
+}
+.link:active {
+  color: #b0b0b0;
+}
+.link:hover {
+  -o-transition:.2s;
+  -ms-transition:.2s;
+  -moz-transition:.2s;
+  -webkit-transition:.2s;
+  transition:.2s;
+  color: #b0b0b0;
+  text-decoration: none;
+  user-select: none;
