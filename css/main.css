@@ -140,11 +140,11 @@ footer {
 }
 .ut-link:active {
   font-family: dt-font; 
-  color: ##ffff00;
+  color: #ffff00;
 }
 .ut-link:hover {
   font-family: dt-font;
-  color: ##ffff00;
+  color: #ffff00;
   text-decoration: none;
   user-select: none;
 }
