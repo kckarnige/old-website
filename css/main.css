@@ -1,7 +1,7 @@
 /* -Font CSS- */
 @font-face {
-   font-family: dt-font;
-   src: url('https://kckarnige.github.io/css/fonts/dtm-sans-webfont.woff2') format('woff2');
+  font-family: dt-font;
+  src: url('https://kckarnige.github.io/css/fonts/dtm-sans-webfont.woff2') format('woff2');
 }
 
 /* -Main CSS- */
@@ -132,3 +132,19 @@ footer {
   color: #b0b0b0;
   text-decoration: none;
   user-select: none;
+}
+.ut-link {
+  font-family: dt-font;
+  text-decoration: none;
+  color: #ffffff;
+}
+.ut-link:active {
+  font-family: dt-font; 
+  color: ##ffff00;
+}
+.ut-link:hover {
+  font-family: dt-font;
+  color: ##ffff00;
+  text-decoration: none;
+  user-select: none;
+}
