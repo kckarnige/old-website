@@ -17,10 +17,10 @@ header {
 }
 ::-webkit-scrollbar {
   width: 0.7em;
-  background: transparent;
+  background: #232323;
 }
 ::-webkit-scrollbar-thumb {
-  background: #232323;
+  background: #505050;
 }
 nav {
   padding: 50px;
