@@ -6,7 +6,7 @@
 
 /* -Main CSS- */
 html {
-  overflow-y: scroll;
+  overflow-y: overlay
 }
 
 html, body {
@@ -19,12 +19,12 @@ html, body {
 header {
   background: #656565;
 }
-::-webkit-scrollbar {
-  width: 0.7em;
-  background: transparent;
+body::-webkit-scrollbar {
+  width: 0.6em;
+  background: rgba(0,0,0,0.5);
 }
-::-webkit-scrollbar-thumb {
-  background: #505050;
+body::-webkit-scrollbar-thumb {
+  background: rgba(80,80,80,0.5);
   border-radius: 10px;
 }
 nav {
@@ -88,7 +88,7 @@ nav ul li a {
   margin: 0 auto;
 }
 footer {
-  position: fixed;
+  position: static;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -96,6 +96,7 @@ footer {
   color: #7e7e7e;
   text-align: center;
   font-size: 13px;
+  line-height: 0.4
 }
 .footer-link {
   -o-transition:.2s;
