@@ -25,6 +25,7 @@ header {
 }
 ::-webkit-scrollbar-thumb {
   background: #505050;
+  border-radius: 10px;
 }
 nav {
   padding: 50px;
