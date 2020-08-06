@@ -5,6 +5,10 @@
 }
 
 /* -Main CSS- */
+html {
+  overflow-y: scroll;
+}
+
 html, body {
   background-color: #333333;
   color: #ffffff;
@@ -17,7 +21,7 @@ header {
 }
 ::-webkit-scrollbar {
   width: 0.7em;
-  background: #232323;
+  background: transparent;
 }
 ::-webkit-scrollbar-thumb {
   background: #505050;
