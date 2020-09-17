@@ -1,5 +1,16 @@
 <html>
 <head>
+<link type="text/css" href="./css/OverlayScrollbars.css" rel="stylesheet"/>
+<script type="text/javascript" src="./js/OverlayScrollbars.js"></script>
+<script>
+   document.addEventListener("DOMContentLoaded", function() {
+   //The first argument are the elements to which the plugin shall be initialized
+   //The second argument has to be at least a empty object or a object with your desired options
+   OverlayScrollbars(document.querySelectorAll('body'), {
+       className:"os-theme-dark",
+    });
+});
+</script>
 <title>Games - Carnige's Website</title>
 <link rel="stylesheet" href="/css/main.css">
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
