@@ -5,11 +5,13 @@
 }
 
 /* -Main CSS- */
+* {
+  overflow-y: overlay;
+}
 html, body {
   background-color: #333333;
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
-  overflow-y: overlay;
   margin: 0;
   user-select: none;
 }
