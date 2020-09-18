@@ -5,6 +5,10 @@
 }
 
 /* -Main CSS- */
+html {
+  overflow-y: overlay
+}
+
 html, body {
   background-color: #333333;
   color: #ffffff;
@@ -14,6 +18,22 @@ html, body {
 }
 header {
   background: #656565;
+}
+main::-webkit-scrollbar {
+  width: 0.4em;
+  background: rgba(0,0,0,0.5);
+}
+main::-webkit-scrollbar-thumb {
+  background: rgba(80,80,80,0.5);
+  border-radius: 10px;
+}
+main::-moz-scrollbar {
+  width: 0.4em;
+  background: rgba(0,0,0,0.5);
+}
+main::-moz-scrollbar-thumb {
+  background: rgba(80,80,80,0.5);
+  border-radius: 10px;
 }
 nav {
   padding: 50px;
