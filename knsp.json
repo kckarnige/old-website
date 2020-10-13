@@ -1,0 +1,9 @@
+{
+    "files": [
+       "https://kckarnige.github.io/nsps/hbmenu.nsp",
+	   "https://kckarnige.github.io/nsps/arcadia_v1.0.nsp",
+	   "https://kckarnige.github.io/nsps/payload_launcher.nsp"
+	   ],
+    "directories": ["nsp"],
+    "success": "Thanks for using KayoticNSP, your local homebrew NSP provider! Enjoy easier access to your homebrew titles!"
+}
