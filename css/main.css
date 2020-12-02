@@ -14,7 +14,7 @@ html, body {
   user-select: none;
 }
 header {
-  background: #656565;
+  background: #434343;
 }
 body::-webkit-scrollbar {
   width: 0.4em;
