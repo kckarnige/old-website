@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Discord';
-  src: url(https://kckarnige.github.io/res/fonts/powercord.woff2) format('woff2'),
-      url(https://kckarnige.github.io/res/fonts/powercord.woff) format('woff');
+  src: url('https://kckarnige.github.io/res/fonts/powercord.woff2') format('woff2'),
+      url('https://kckarnige.github.io/res/fonts/powercord.woff') format('woff');
   font-weight: 900;
   font-style: normal;
 }
