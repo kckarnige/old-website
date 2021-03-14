@@ -16,3 +16,8 @@
   --rs-streaming-color: #643da7;  /* color for streaming status */
   --rs-invisible-color: #747f8d;  /* color for invisible status - Note this will only show for your own invisibility */
 }
+
+.scrollableContainer-2NUZem {
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+}
