@@ -6,6 +6,8 @@
 @version      2.0.0
 ==/UserStyle== */
 
+@import url('https://kckarnige.github.io/femboi_owo/improved-dc-ui/base.css');
+
 :root {
     --standard-color: #7289da;
     --canary-color: #efb65f;
@@ -17,8 +19,6 @@
 :root {
     --main-color: var(--standard-color);
 }
-    
-@import url('https://kckarnige.github.io/femboi_owo/improved-dc-ui/base.css');
     
     .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
 .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
