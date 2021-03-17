@@ -3,7 +3,8 @@
 @description  A simple UI improvement by KayoticCarnige
 @author       KayoticCarnige
 @namespace    https://github.com/kckarnige/kckarnige.github.io/tree/master/femboi_owo/improved-dc-ui
-@version      2.0.0
+@version      2.0.1
+@changelog    Fixed problems with Addon CSS not loading/importing
 ==/UserStyle== */
 
 @import url('https://kckarnige.github.io/femboi_owo/improved-dc-ui/base.css');
