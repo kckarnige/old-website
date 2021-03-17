@@ -4,7 +4,7 @@
 @import url('https://raw.githack.com/LuckFire/BetterChannelIndicators/main/src/support/BetterChannelIndiactors.theme.css');
 @import url("https://discordstyles.github.io/RadialStatus/base.css");
 
-:root {
+:root { /* Status CSS */
   --rs-small-spacing: 2px;  /* spacing between avatar and status */
   --rs-large-spacing: 3px;  /* spacing between avatar and status for user popouts & modals/profiles | MUST end in px */
   --rs-width: 2px;  /* Width/thickness of status border */
@@ -17,7 +17,103 @@
   --rs-invisible-color: #747f8d;  /* color for invisible status - Note this will only show for your own invisibility */
 }
 
+:root { /* Client Colors */
+    --standard-color: #7289da;
+    --canary-color: #efb65f;
+    --ptb-color: #99aab5;
+}
+
+/* =====Main CSS===== */
+
+@document domain("discord.com") {
+
+:root {
+    --main-color: var(--standard-color);
+}
+        
+    .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.childWrapper-anI2G9 {
+    color: #fff;
+    background: #0000;
+}
+    
+.activeLink-22b0_I {
+    background-color: var(--main-color) !important;
+    border-radius: 25px;
+    color: #fff;
+    transition:.3s;
+}
+    
+.navLinkMedium-4MZo72 {
+    border-radius: 25px;
+    transition:.2s;
+}
+    
+.navLinkMedium-4MZo72:hover {
+    border-radius: 25px;
+    background-color: #23272a
+}
+    
+.filledBrand-pyfKOu {
+    background: var(--main-color);
+    border-radius: 25px;
+}
+    
+.filledBrand-pyfKOu:hover {
+    background: var(--main-color);
+    border-radius: 25px;
+    filter: brightness(75%);
+    transition:.2s;
+}
+    
+.themeDefault-24hCdX .input-rwLH4i:checked+.indicator-3onuwD {
+    background-color: var(--main-color);
+}
+    
+.wanderingCubesItem-WPXqao {
+    background-color: var(--main-color);
+}
+    
+.filledWhite-35QGck {
+    background: var(--main-color);
+    color: #fff;
+}
+    
+.tipTitle-GL9qAt {
+    color: var(--main-color);
+}
+    
 .scrollableContainer-2NUZem {
-    overflow-x: hidden !important;
-    overflow-y: hidden !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+    
+.scrollableContainer-2NUZem::-webkit-scrollbar {
+  width: 0.4em;
+  background: var(--scrollbar-thin-track);
+  border-radius: 25px;
+}
+.scrollableContainer-2NUZem::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thin-thumb);
+  border-radius: 25px;
+}
+}
+
+@document domain("canary.discord.com") {
+
+:root {
+    --main-color: var(--canary-color)
+}
+}
+
+@document domain("ptb.discord.com") {
+
+:root {
+    --main-color: var(--ptb-color)
+}
 }
