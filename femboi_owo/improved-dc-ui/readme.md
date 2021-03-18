@@ -1,6 +1,6 @@
 ### Improved UI - Discord Theme
 
-*I made this, first out of boredom, but now I genuinely want to make a good theme, it also looks different across client versions :D*
+*I made this, first out of boredom, but now I genuinely want to make a good theme, it also looks different across client versions :D (Browser only)*
 
 Standard Discord Client: Blurple / #7289DA
 
