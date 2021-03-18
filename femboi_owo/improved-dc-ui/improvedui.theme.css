@@ -1,7 +1,7 @@
 /**
 
  * @name Improved Discord UI
- * @version 2.0.0
+ * @version 2.0.1
  * @description A simple UI improvement
  * @author KayoticCarnige
  * @source https://github.com/kckarnige/kckarnige.github.io/tree/master/femboi_owo/improved-dc-ui
@@ -35,7 +35,6 @@
 
 /* =====Main CSS===== */
 
-@document domain("discord.com") {
 
 :root {
     --main-color: var(--standard-color);
@@ -111,19 +110,4 @@
 .scrollableContainer-2NUZem::-webkit-scrollbar-thumb {
   background: var(--scrollbar-thin-thumb);
   border-radius: 25px;
-}
-}
-
-@document domain("canary.discord.com") {
-
-:root {
-    --main-color: var(--canary-color)
-}
-}
-
-@document domain("ptb.discord.com") {
-
-:root {
-    --main-color: var(--ptb-color)
-}
 }
