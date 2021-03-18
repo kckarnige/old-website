@@ -6,7 +6,7 @@ Standard Discord Client: Blurple / #7289DA
 
 Discord Canary: (Made up by me) Canary Gold / #EFB65F
 
-Public Test Build: Greyple / #99AAB5
+Public Test Build (PTB): Greyple / #99AAB5
 
 [Stylus Install](https://raw.githubusercontent.com/kckarnige/kckarnige.github.io/master/femboi_owo/improved-dc-ui/index.user.css)
 
