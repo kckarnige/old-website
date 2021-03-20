@@ -1,0 +1,31 @@
+/**
+
+ * @name Improved Lightcord Badges
+ * @version 2.0.0
+ * @description Improved Lightcord Badges with a new cleaner logo
+ * @author KayoticCarnige
+ * @source https://github.com/kckarnige/kckarnige.github.io/tree/master/femboi_owo/improved-lc-badges
+
+**/
+
+.bd-member-badge[title="Lightcord"] svg {
+    opacity: 0;
+}
+
+.bd-member-badge[title="Lightcord"] {
+    content: url('https://kckarnige.github.io/femboi_owo/improved-lc-badges/res/lightcord-hq.png');
+    opacity: 1;
+    height: 100%;
+    width: 16px;
+}
+
+.bd-member-badge[title="Lightcord Bug Hunter"] svg {
+    opacity: 0;
+}
+
+.bd-member-badge[title="Lightcord Bug Hunter"] {
+    content: url('https://kckarnige.github.io/femboi_owo/improved-lc-badges/res/lightcord-bh-hq.png');
+    opacity: 1;
+    height: 100%;
+    width: 16px;
+}
