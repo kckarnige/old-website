@@ -13,6 +13,7 @@
     --standard-color: #7289da;
     --canary-color: #efb65f;
     --ptb-color: #99aab5;
+    --lightcord-color: #dc3545;
 }
 
 @-moz-document domain("discord.com") {
