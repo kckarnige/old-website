@@ -31,6 +31,7 @@
     --standard-color: #7289da;
     --canary-color: #efb65f;
     --ptb-color: #99aab5;
+    --lightcord-color: #dc3545;
 }
 
 /* =====Main CSS===== */
@@ -100,6 +101,11 @@
 .scrollableContainer-2NUZem {
     overflow-x: hidden;
     overflow-y: auto;
+    padding-right: 12px;
+}
+    
+#app-mount .container-3baos1 .avatarWrapper-2yR4wp {
+    background-color: transparent;
 }
     
 .scrollableContainer-2NUZem::-webkit-scrollbar {
