@@ -1,18 +1,14 @@
 /**
 
  * @name Improved Discord UI
- * @version 2.0.2
+ * @version 2.0.3
  * @description A simple UI improvement
  * @author KayoticCarnige
  * @source https://github.com/kckarnige/kckarnige.github.io/tree/master/femboi_owo/improved-dc-ui
 
 **/
 
-@import url('https://raw.githack.com/Discord-Theme-Addons/refined-user-connections/main/src/support/RefinedUserConections.theme.css');
-@import url('https://tomrdh.github.io/discord-addons/xcores/themes/RNT_Core.css'); /* <-- No Nitro */
-@import url('https://raw.githack.com/LuckFire/RevampedUserArea/main/src/support/RevampedUserArea.theme.css');
-@import url('https://raw.githack.com/LuckFire/BetterChannelIndicators/main/src/support/BetterChannelIndiactors.theme.css');
-@import url("https://discordstyles.github.io/RadialStatus/base.css");
+@import url('https://kckarnige.github.io/femboi_owo/improved-dc-ui/base.css');
 
 :root { /* Status CSS */
   --rs-small-spacing: 2px;  /* spacing between avatar and status */
@@ -32,6 +28,7 @@
     --canary-color: #efb65f;
     --ptb-color: #99aab5;
     --lightcord-color: #be3c41;
+    --bandagedBd-color: #3e82e5;
 }
 
 /* =====Main CSS===== */
@@ -116,4 +113,38 @@
 .scrollableContainer-2NUZem::-webkit-scrollbar-thumb {
   background: var(--scrollbar-thin-thumb);
   border-radius: 25px;
+}
+
+/* =====For BandagedBD Users===== */
+
+/* Lightcord Settings Tab */
+
+div[aria-controls="lightcord-tab"].themed-OHr7kt.item-PXvHYJ {
+    color: #be3c41;
+}
+
+div[aria-controls="lightcord-tab"].themed-OHr7kt.item-PXvHYJ:hover {
+    color: #be3c41;
+    background: #be3c4125 !important;
+}
+
+div[aria-controls="lightcord-tab"].themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+    color: #fff;
+    background: #be3c41 !important;
+}
+
+/* BandagedBD Settings Tab */
+
+div[aria-controls="core-tab"].themed-OHr7kt.item-PXvHYJ {
+    color: #3e82e5;
+}
+
+div[aria-controls="core-tab"].themed-OHr7kt.item-PXvHYJ:hover {
+    color: #3e82e5;
+    background: #3e82e525 !important;
+}
+
+div[aria-controls="core-tab"].themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+    color: #fff;
+    background: #3e82e5 !important;
 }
