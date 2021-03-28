@@ -2,11 +2,16 @@
 
 *I made this, first out of boredom, but now I genuinely want to make a good theme, it also looks different across client versions :D (Browser only)*
 
-Standard Discord Client: Blurple / #7289DA
+Standard Blurple: #7289DA
 
-Discord Canary: (Made up by me) Canary Gold / #EFB65F
+Canary Gold: #EFB65F
 
-Public Test Build (PTB): Greyple / #99AAB5
+Bingus Red: #BE3C41
+
+Bandaged Blue: #3E82E5
+
+Greyple (PTB): #99AAB5
+
 
 [Stylus Install](https://raw.githubusercontent.com/kckarnige/kckarnige.github.io/master/femboi_owo/improved-dc-ui/index.user.css)
 
