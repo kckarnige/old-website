@@ -1,7 +1,7 @@
 /**
 
  * @name Improved Discord UI
- * @version 2.0.3
+ * @version 2.0.5
  * @description A simple UI improvement
  * @author KayoticCarnige
  * @source https://github.com/kckarnige/kckarnige.github.io/tree/master/femboi_owo/improved-dc-ui
@@ -23,12 +23,24 @@
   --rs-invisible-color: #747f8d;  /* color for invisible status - Note this will only show for your own invisibility */
 }
 
+:root { /* Channel Indicator CSS */
+    --unread-badge: rgba(255, 255, 255, 0.6);
+    --unread-bg: rgba(255, 255, 255, 0.01);
+    --selected-badge: rgb(112, 135, 215);
+    --selected-bg: rgba(112, 135, 215, 0.1);
+    --selected-bg-hover: rgba(112, 135, 215, 0.18);
+    --hovered-bg: rgba(79, 84, 92, 0.25);
+    --bg-rounding: 0 25px 25px 0;
+    --border-info: 2px solid;
+}
+
 :root { /* Client Colors */
-    --standard-color: #7289da;
-    --canary-color: #efb65f;
-    --ptb-color: #99aab5;
-    --lightcord-color: #be3c41;
-    --bandagedBd-color: #3e82e5;
+    --standard-color: #7289dafe;
+    --canary-color: #efb65ffe;
+    --ptb-color: #99aab5fe;
+    --lightcord-color: #be3c41fe;
+    --bandagedBd-color: #3e82e5fe;
+    --ping-color: #f04747fe;
 }
 
 /* =====Main CSS===== */
@@ -113,6 +125,20 @@
 .scrollableContainer-2NUZem::-webkit-scrollbar-thumb {
   background: var(--scrollbar-thin-thumb);
   border-radius: 25px;
+}
+
+.numberBadge-2s8kKX {
+    background-color: var(--ping-color) !important;
+}
+
+.title-29uC1r {
+    user-select: text !important;
+    cursor: text !important;
+}
+
+::selection {
+    background-color: var(--standard-color) !important;
+    color: #fff !important;
 }
 
 /* =====For BandagedBD Users===== */
