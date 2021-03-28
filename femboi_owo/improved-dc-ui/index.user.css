@@ -3,13 +3,26 @@
 @description  A simple UI improvement by KayoticCarnige
 @author       KayoticCarnige
 @namespace    https://github.com/kckarnige/kckarnige.github.io/tree/master/femboi_owo/improved-dc-ui
-@version      2.0.5
+@version      2.0.6
 @changelog    Fixed problems with Addon CSS not loading/importing
 ==/UserStyle== */
 
 @import url('https://kckarnige.github.io/femboi_owo/improved-dc-ui/base.css');
 
-:root {
+:root { /* Status CSS */
+  --rs-small-spacing: 2px;  /* spacing between avatar and status */
+  --rs-large-spacing: 3px;  /* spacing between avatar and status for user popouts & modals/profiles | MUST end in px */
+  --rs-width: 2px;  /* Width/thickness of status border */
+  --rs-avatar-shape: 50%;  /* 50% for round - 0% for square */
+  --rs-online-color: #43b581;  /* color for online status */
+  --rs-idle-color: #faa61a;  /* color for idle status */
+  --rs-dnd-color: #f04747;  /* color for dnd status */
+  --rs-offline-color: #636b75;  /* color for offline status */
+  --rs-streaming-color: #643da7;  /* color for streaming status */
+  --rs-invisible-color: #747f8d;  /* color for invisible status - Note this will only show for your own invisibility */
+}
+
+:root { /* Preset Colors */
     --standard-blurple: #7289dafe;
     --canary-gold: #efb65ffe;
     --greyple: #99aab5fe;
@@ -119,13 +132,13 @@
 @-moz-document domain("canary.discord.com") {
 
 :root {
-    --main-color: var(--canary-color)
+    --main-color: var(--canary-gold)
 }
 }
 
 @-moz-document domain("ptb.discord.com") {
 
 :root {
-    --main-color: var(--ptb-color)
+    --main-color: var(--greyple)
 }
 }
