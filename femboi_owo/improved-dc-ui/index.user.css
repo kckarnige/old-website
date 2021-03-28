@@ -10,18 +10,18 @@
 @import url('https://kckarnige.github.io/femboi_owo/improved-dc-ui/base.css');
 
 :root {
-    --standard-color: #7289dafe;
-    --canary-color: #efb65ffe;
-    --ptb-color: #99aab5fe;
-    --lightcord-color: #be3c41fe;
-    --bandagedBd-color: #3e82e5fe;
+    --standard-blurple: #7289dafe;
+    --canary-gold: #efb65ffe;
+    --greyple: #99aab5fe;
+    --bingus-red: #be3c41fe;
+    --bandaged-blue: #3e82e5fe;
     --ping-color: #f04747fe;
 }
 
 @-moz-document domain("discord.com") {
 
 :root {
-    --main-color: var(--standard-color);
+    --main-color: var(--standard-blurple);
 }
     
     .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
