@@ -1,7 +1,7 @@
 /**
 
  * @name Improved Discord UI
- * @version 2.0.6
+ * @version 2.0.7
  * @description A simple UI improvement
  * @author KayoticCarnige
  * @source https://github.com/kckarnige/kckarnige.github.io/tree/master/femboi_owo/improved-dc-ui
@@ -48,6 +48,7 @@
 
 :root {
     --main-color: var(--standard-blurple);
+    --selector-color: var(--standard-blurple);
 }
         
     .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
@@ -137,7 +138,7 @@
 }
 
 ::selection {
-    background-color: var(--standard-color) !important;
+    background-color: var(--selector-color) !important;
     color: #fff !important;
 }
 
