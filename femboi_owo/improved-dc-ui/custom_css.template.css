@@ -3,4 +3,5 @@
 root { 
     --main-color: var(--standard-blurple); 
     --ping-color: #f04747fe;
+    --selector-color: var(--standard-blurple);
 }
