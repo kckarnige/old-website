@@ -136,6 +136,10 @@
     background-color: var(--selector-color) !important;
     color: #fff !important;
 }
+ 
+.username-1A8OIy, .roleColor-rz2vM0 {
+    filter: brightness(100%);
+}
 }
 
 @-moz-document domain("canary.discord.com") {
