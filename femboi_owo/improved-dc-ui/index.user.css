@@ -3,8 +3,8 @@
 @description  A simple UI improvement by KayoticCarnige
 @author       KayoticCarnige
 @namespace    https://github.com/kckarnige/kckarnige.github.io/tree/master/femboi_owo/improved-dc-ui
-@version      2.0.7
-@changelog    Fixed problems with CSS
+@version      2.0.8
+@changelog    Fixed UI issues
 ==/UserStyle== */
 
 @import url('https://kckarnige.github.io/femboi_owo/improved-dc-ui/base.css');
@@ -35,8 +35,9 @@
 
 :root {
     --main-color: var(--standard-blurple);
+    --selector-color: var(--standard-blurple);
 }
-    
+        
     .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
 .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
     background-color: var(--main-color);
@@ -75,6 +76,14 @@
     border-radius: 25px;
     filter: brightness(75%);
     transition:.2s;
+}
+
+.header-2V-4Sw {
+    z-index: 0;
+}
+
+.searchBar-6Kv8R2 {
+    z-index: 0;
 }
     
 .themeDefault-24hCdX .input-rwLH4i:checked+.indicator-3onuwD {
@@ -124,7 +133,7 @@
 }
 
 ::selection {
-    background-color: var(--main-color) !important;
+    background-color: var(--selector-color) !important;
     color: #fff !important;
 }
 }
