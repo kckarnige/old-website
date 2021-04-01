@@ -1,7 +1,7 @@
 /**
 
  * @name Improved Discord UI
- * @version 2.0.7
+ * @version 2.0.8
  * @description A simple UI improvement
  * @author KayoticCarnige
  * @source https://github.com/kckarnige/kckarnige.github.io/tree/master/femboi_owo/improved-dc-ui
@@ -90,6 +90,14 @@
     filter: brightness(75%);
     transition:.2s;
 }
+
+.header-2V-4Sw {
+    z-index: 0;
+}
+
+.searchBar-6Kv8R2 {
+    z-index: 0;
+}
     
 .themeDefault-24hCdX .input-rwLH4i:checked+.indicator-3onuwD {
     background-color: var(--main-color);
@@ -142,7 +150,7 @@
     color: #fff !important;
 }
 
-/* =====For BandagedBD Users===== */
+/* =====For Desktop Users===== */
 
 /* Lightcord Settings Tab */
 
@@ -174,4 +182,24 @@ div[aria-controls="core-tab"].themed-OHr7kt.item-PXvHYJ:hover {
 div[aria-controls="core-tab"].themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
     color: #fff;
     background: #3e82e5 !important;
+}
+
+/* Wordart */
+
+.wordmark-2iDDfm svg {
+    width: 0px;
+}
+
+.wordmark-2iDDfm::after {
+    position: absolute;
+    font-family: "Discordinated";
+    content: "Discord";
+    top: 3px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #72767d;
+    height: 19px;
+    width: 235px;
+    transform: translateY(-12%);
+    line-height: 20px;
 }
