@@ -15,6 +15,6 @@ Greyple (PTB): #99AAB5
 
 [Stylus Install](https://raw.githubusercontent.com/kckarnige/kckarnige.github.io/master/femboi_owo/improved-dc-ui/index.user.css)
 
-[BetterDiscord Download](https://betterdiscord.net/ghdl/?url=https://raw.githubusercontent.com/kckarnige/kckarnige.github.io/master/femboi_owo/improved-dc-ui/improvedui.theme.css)
+[BetterDiscord Install](https://betterdiscord.net/ghdl/?url=https://raw.githubusercontent.com/kckarnige/kckarnige.github.io/master/femboi_owo/improved-dc-ui/improvedui.theme.css)
 
 *[Greyple and Blurple](https://discord.com/branding) is property of Discord or some shit like that*
