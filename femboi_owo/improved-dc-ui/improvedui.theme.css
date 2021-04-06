@@ -1,7 +1,7 @@
 /**
 
  * @name Improved Discord UI
- * @version 2.0.8
+ * @version 2.1.0
  * @description A simple UI improvement
  * @author KayoticCarnige
  * @source https://github.com/kckarnige/kckarnige.github.io/tree/master/femboi_owo/improved-dc-ui
@@ -30,7 +30,7 @@
     --selected-bg: rgba(112, 135, 215, 0.1);
     --selected-bg-hover: rgba(112, 135, 215, 0.18);
     --hovered-bg: rgba(79, 84, 92, 0.25);
-    --bg-rounding: 0 25px 25px 0;
+    --bg-rounding: 0 5px 5px 0;
     --border-info: 2px solid;
 }
 
@@ -49,6 +49,8 @@
 :root {
     --main-color: var(--standard-blurple);
     --selector-color: var(--standard-blurple);
+    --wordmark-text: "Discord";
+    --wordmark-text-color: #72767d;
 }
         
     .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
@@ -150,10 +152,6 @@
     color: #fff !important;
 }
 
-.username-1A8OIy, .roleColor-rz2vM0 {
-    filter: brightness(100%);
-}
-
 /* =====For Desktop Users===== */
 
 /* Lightcord Settings Tab */
@@ -197,13 +195,13 @@ div[aria-controls="core-tab"].themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
 .wordmark-2iDDfm::after {
     position: absolute;
     font-family: "Discordinated";
-    content: "Discord";
+    content: var(--wordmark-text);
     top: 3px;
     font-size: 14px;
     font-weight: normal;
-    color: #72767d;
+    color: var(--wordmark-text-color);
     height: 19px;
     width: 235px;
-    transform: translateY(-12%);
+    transform: translateY(-8%);
     line-height: 20px;
 }
