@@ -8,7 +8,7 @@ root {
     --wordmark-text: "Discord"; /* This should only be text (Example: Lightcord, Binguscord, BetterDiscord, Discord 2, I think you get it) */
 }
 
-/* RGB Wordmark Code */
+/* 100% Optional RGB Wordmark Code */
 
 @keyframes rainbow_animation {
     0% {
@@ -20,8 +20,8 @@ root {
     }
 }
 
-.wordmark-2iDDfm::after {
-    background: linear-gradient(to right, #6666ff, #00e1ff , #00ff00, #ff3399, #6666ff);
+.wordmark-2iDDfm:after {
+    background: linear-gradient(to right, #6666fffe, #00e1fffe, #00ff00fe, #eeff00fe, #ff9100fe, #ff3399fe, #6666fffe);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
