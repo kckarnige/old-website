@@ -11,20 +11,20 @@ root {
 /* RGB Wordmark Code */
 
 @keyframes rainbow_animation {
-    0%,100% {
-        background-position: 0 0;
+    0% {
+        background-position: 1%;
     }
 
-    50% {
-        background-position: 100% 0;
+    100% {
+        background-position: 198%;
     }
 }
 
 .wordmark-2iDDfm::after {
-    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    background: linear-gradient(to right, #6666ff, #00e1ff , #00ff00, #ff3399, #6666ff);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    animation: rainbow_animation 6s ease-in-out infinite;
-    background-size: 400% 100%;
+    animation: rainbow_animation 6s ease-in infinite;
+    background-size: 200% 100%;
 }
