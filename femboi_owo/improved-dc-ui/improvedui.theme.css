@@ -205,3 +205,18 @@ div[aria-controls="core-tab"].themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
     transform: translateY(-8%);
     line-height: 20px;
 }
+
+nav[aria-label="Lighty Emojis (server)"] h1.name-1jkAdW {
+    font-family: "Discordinated";
+    font-weight: normal;
+    font-size: 22px;
+    transform: translateX(6%);
+}
+
+nav[aria-label="Lighty Emojis (server)"]::before {
+    content: url('https://kckarnige.github.io/femboi_owo/improved-lc-badges/res/lightcord4text.svg') ' Unofficial Lightcord Server';
+    transform: translate(13%, 70%);
+    color: var(--channels-default);
+    font-weight: 600;
+    font-size: 12px;
+}
