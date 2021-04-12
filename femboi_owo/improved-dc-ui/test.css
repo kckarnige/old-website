@@ -5,6 +5,39 @@
 @import url("https://discordstyles.github.io/RadialStatus/base.css");
 @import url("https://kckarnige.github.io/femboi_owo/discord-font.css");
 
+:root { /* Client Colors */
+    --standard-blurple: #7289dafe;
+    --canary-gold: #efb65ffe;
+    --greyple: #99aab5fe;
+    --bingus-red: #be3c41fe;
+    --bandaged-blue: #3e82e5fe;
+    --ping-color: #f04747fe;
+}
+
+:root { /* Status CSS */
+    --rs-small-spacing: 2px;  /* spacing between avatar and status */
+    --rs-large-spacing: 3px;  /* spacing between avatar and status for user popouts & modals/profiles | MUST end in px */
+    --rs-width: 2px;  /* Width/thickness of status border */
+    --rs-avatar-shape: 50%;  /* 50% for round - 0% for square */
+    --rs-online-color: #43b581;  /* color for online status */
+    --rs-idle-color: #faa61a;  /* color for idle status */
+    --rs-dnd-color: #f04747;  /* color for dnd status */
+    --rs-offline-color: #636b75;  /* color for offline status */
+    --rs-streaming-color: #643da7;  /* color for streaming status */
+    --rs-invisible-color: #747f8d;  /* color for invisible status - Note this will only show for your own invisibility */
+  }
+  
+  :root { /* Channel Indicator CSS */
+      --unread-badge: rgba(255, 255, 255, 0.6);
+      --unread-bg: rgba(255, 255, 255, 0.01);
+      --selected-badge: rgb(112, 135, 215);
+      --selected-bg: rgba(112, 135, 215, 0.1);
+      --selected-bg-hover: rgba(112, 135, 215, 0.18);
+      --hovered-bg: rgba(79, 84, 92, 0.25);
+      --bg-rounding: 0 5px 5px 0;
+      --border-info: 2px solid;
+  }
+
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
 .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
     background-color: var(--main-color);
