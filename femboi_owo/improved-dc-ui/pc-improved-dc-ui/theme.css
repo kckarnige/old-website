@@ -1,0 +1,12 @@
+
+@import url('https://kckarnige.github.io/femboi_owo/improved-dc-ui/pc-improved-dc-ui/base.css');
+  
+:root {
+    --main-color: var(--standard-blurple);
+    --selector-color: var(--standard-blurple);
+    --wordmark-text: "RIP Lighty";
+    --wordmark-text-color: #72767d;
+}
+
+/* ===== DO NOT TOUCH ANYTHING PASSED THIS LINE UNLESS YOU KNOW WHAT YOU'RE DOING ===== */
+    
