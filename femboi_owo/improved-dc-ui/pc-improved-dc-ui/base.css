@@ -202,7 +202,7 @@ nav[aria-label="Lighty Emojis (server)"] h1.name-1jkAdW {
 
 nav[aria-label="Lighty Emojis (server)"]::before {
     content: url('https://kckarnige.github.io/femboi_owo/improved-dc-ui/res/lightcord4text.svg') ' Unofficial Lightcord Server';
-    transform: translate(13%, 70%);
+    transform: translate(10%, 70%);
     color: var(--channels-default);
     font-weight: 600;
     font-size: 12px;
@@ -217,7 +217,7 @@ nav[aria-label="BetterDiscord (server)"] h1.name-1jkAdW {
 
 nav[aria-label="BetterDiscord (server)"]::before {
     content: url('https://kckarnige.github.io/femboi_owo/improved-dc-ui/res/bd4text.svg') ' Official BetterDiscord Server';
-    transform: translate(13%, 70%);
+    transform: translate(10%, 70%);
     color: var(--channels-default);
     font-weight: 600;
     font-size: 12px;
