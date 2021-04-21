@@ -5,7 +5,7 @@
 @namespace    https://github.com/kckarnige/kckarnige.github.io/tree/master/femboi_owo/improved-dc-ui
 @homepageURL  https://github.com/kckarnige/kckarnige.github.io/tree/master/femboi_owo/improved-dc-ui
 @version      2.2.1
-@changelog    Added a homepage URL
+@changelog    Removed the dynamic color themes
 ==/UserStyle== */
 
 @import url('https://kckarnige.github.io/femboi_owo/improved-dc-ui/base.css');
@@ -184,18 +184,5 @@ nav[aria-label="BetterDiscord (server)"]::before {
     color: var(--channels-default);
     font-weight: 600;
     font-size: 12px;
-}
-
-@-moz-document domain("canary.discord.com") {
-
-:root {
-    --main-color: var(--canary-gold)
-}
-}
-
-@-moz-document domain("ptb.discord.com") {
-
-:root {
-    --main-color: var(--greyple)
 }
 }
