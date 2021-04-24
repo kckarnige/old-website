@@ -1,5 +1,4 @@
-### Improved UI - Discord Theme
-**Latest Version: 2.2.2**
+<img src="https://kckarnige.github.io/femboi_owo/improved-dc-ui/banner.png" height="75%" width="75%">
 
 *I made this, first out of boredom, but now I genuinely want to make a good theme :D*
 
