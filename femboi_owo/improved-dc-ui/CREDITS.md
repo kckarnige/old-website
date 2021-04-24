@@ -3,3 +3,5 @@
 [Gibbu](https://www.gibbu.me) - [Radial Discord Status](https://github.com/DiscordStyles/RadialStatus)
 
 [Tomrdh](https://github.com/Tomrdh) - [No Nitro Tab](https://github.com/Tomrdh/discord-addons/blob/master/download-themes-here)
+
+[KayoticCarnige](https://github.com/kckarnige) - [Discord Logo Font (DeviantArt Link)](https://www.deviantart.com/carnigewashere/art/Discordinated-3-0-The-Best-Discord-Logo-Font-875000925)
