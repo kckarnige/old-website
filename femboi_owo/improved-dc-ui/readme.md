@@ -1,5 +1,5 @@
 ### Improved UI - Discord Theme
-#### Latest Version: 2.2.2
+**Latest Version: 2.2.2**
 
 *I made this, first out of boredom, but now I genuinely want to make a good theme :D*
 
