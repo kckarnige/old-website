@@ -20,4 +20,4 @@ Greyple (PTB): #99AAB5
 <img src="https://kckarnige.github.io/res/powercord.svg" height="14px" width="14px"> [Powercord Theme Download](https://downgit.github.io/#/home?url=https://github.com/kckarnige/kckarnige.github.io/tree/master/femboi_owo/improved-dc-ui/pc-improved-dc-ui) (Move the folder to your themes directory)
 
 
-*[Greyple and Blurple](https://discord.com/branding) is property of Discord or some shit like that*
+*[Greyple and Blurple is property of Discord or some shit like that](https://discord.com/branding)*
