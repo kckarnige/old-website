@@ -1,4 +1,4 @@
-[LuckFire](https://github.com/LuckFire) - [Better Channel Indicators](https://github.com/LuckFire/BetterChannelIndicators), [Nicer User Connections](https://github.com/LuckFire/Nicer-User-Connections), [Revamped User Area](https://github.com/LuckFire/RevampedUserArea)
+[LuckFire](https://github.com/LuckFire) - [Modern Channel Indicators](https://github.com/LuckFire/modern-channel-indicators), [Refined User Connections](https://github.com/Discord-Theme-Addons/Refined-User-Connections), [Compact Userarea](https://github.com/Discord-Theme-Addons/compact-userarea)
 
 [Gibbu](https://www.gibbu.me) - [Radial Discord Status](https://github.com/DiscordStyles/RadialStatus)
 
