@@ -12,7 +12,7 @@ Bingus Red: #BE3C41
 
 Bandaged Blue: #3E82E5
 
-Greyple (PTB): #99AAB5
+Greyple: #99AAB5
 
 
 <img src="https://kckarnige.github.io/res/stylus_icon.svg" height="14px" width="14px"> [Stylus Theme Install](https://raw.githubusercontent.com/kckarnige/kckarnige.github.io/master/femboi_owo/improved-dc-ui/index.user.css)
@@ -21,5 +21,6 @@ Greyple (PTB): #99AAB5
 
 <img src="https://kckarnige.github.io/res/powercord.svg" height="14px" width="14px"> [Powercord Theme Download](https://downgit.github.io/#/home?url=https://github.com/kckarnige/kckarnige.github.io/tree/master/femboi_owo/improved-dc-ui/pc-improved-dc-ui) (Move the folder to your themes directory)
 
+[Credit to these amazing people!](https://github.com/kckarnige/kckarnige.github.io/blob/master/femboi_owo/improved-dc-ui/CREDITS.md)
 
-*[Greyple and Blurple is property of Discord or some shit like that](https://discord.com/branding)*
+*[Oh, and uh Greyple and Blurple is property of Discord Inc and blah blah blah](https://discord.com/branding)*
