@@ -1,6 +1,6 @@
 @import url('https://raw.githack.com//Discord-Theme-Addons/refined-user-connections/main/src/support/RefinedUserConections.theme.css');
 @import url('https://tomrdh.github.io/discord-addons/xcores/themes/RNT_Core.css'); /* <-- No Nitro */
-@import url('https://raw.githack.com/Discord-Theme-Addons/revamped-userarea/main/src/support/RevampedUserArea.theme.css');
+@import url('https://discord-theme-addons.github.io/compact-userarea/src/support/compiled.css');
 @import url('https://raw.githack.com/Discord-Theme-Addons/modern-channel-indicators/main/src/support/ModernChannelIndiactors.theme.css');
 @import url("https://discordstyles.github.io/RadialStatus/base.css");
 @import url("https://kckarnige.github.io/femboi_owo/discord-font.css");
@@ -25,7 +25,8 @@
     --rs-offline-color: #636b75;  /* color for offline status */
     --rs-streaming-color: #643da7;  /* color for streaming status */
     --rs-invisible-color: #747f8d;  /* color for invisible status - Note this will only show for your own invisibility */
-  }
+    --container-color: var(--background-floating);
+}
   
   :root { /* Channel Indicator CSS */
       --unread-badge: rgba(255, 255, 255, 0.6);
@@ -36,7 +37,7 @@
       --hovered-bg: rgba(79, 84, 92, 0.25);
       --bg-rounding: 0 5px 5px 0;
       --border-info: 2px solid;
-  }
+}
 
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
 .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
