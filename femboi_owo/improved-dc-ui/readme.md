@@ -1,4 +1,6 @@
+<a href="https://github.com/kckarnige/kckarnige.github.io/tree/master/femboi_owo/improved-dc-ui">
 <img src="https://kckarnige.github.io/femboi_owo/improved-dc-ui/banner.png" height="75%" width="75%">
+</a>
 
 *I made this, first out of boredom, but now I genuinely want to make a good theme :D*
 
