@@ -2,7 +2,7 @@
     font-family: 'Whitney Medium';
     font-style: normal;
     font-weight: normal;
-    src: url('whitneymedium.woff') format('woff');
+    src: url('https://kckarnige.is-a.dev/css/fonts/whitney/whitneymedium.woff') format('woff');
 }
 
 
@@ -10,7 +10,7 @@
     font-family: 'Whitney Medium Italic';
     font-style: normal;
     font-weight: normal;
-    src: url('whitneymediumitalic.woff') format('woff');
+    src: url('https://kckarnige.is-a.dev/css/fonts/whitney/whitneymediumitalic.woff') format('woff');
 }
 
 
@@ -18,14 +18,14 @@
     font-family: 'Whitney Bold';
     font-style: normal;
     font-weight: normal;
-    src: url('whitneybold.woff') format('woff');
+    src: url('https://kckarnige.is-a.dev/css/fonts/whitney/whitneybold.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Whitney Black';
     font-style: normal;
     font-weight: normal;
-    src: url('whitney-black.woff') format('woff');
+    src: url('https://kckarnige.is-a.dev/css/fonts/whitney/whitney-black.woff') format('woff');
 }
 
 
@@ -33,7 +33,7 @@
     font-family: 'Whitney Semibold Regular';
     font-style: normal;
     font-weight: normal;
-    src: url('whitneysemibold.woff') format('woff');
+    src: url('https://kckarnige.is-a.dev/css/fonts/whitney/whitneysemibold.woff') format('woff');
 }
 
 
@@ -41,7 +41,7 @@
     font-family: 'Whitney Book Regular';
     font-style: normal;
     font-weight: normal;
-    src: url('whitneybook.woff') format('woff');
+    src: url('https://kckarnige.is-a.dev/css/fonts/whitney/whitneybook.woff') format('woff');
 }
 
 
@@ -49,7 +49,7 @@
     font-family: 'Whitney Light Regular';
     font-style: normal;
     font-weight: normal;
-    src: url('whitneylight.woff') format('woff');
+    src: url('https://kckarnige.is-a.dev/css/fonts/whitney/whitneylight.woff') format('woff');
 }
 
 
@@ -57,7 +57,7 @@
     font-family: 'Whitney Semibold Italic';
     font-style: normal;
     font-weight: normal;
-    src: url('WhitneySemiboldItalic.woff') format('woff');
+    src: url('https://kckarnige.is-a.dev/css/fonts/whitney/WhitneySemiboldItalic.woff') format('woff');
 }
 
 
@@ -65,7 +65,7 @@
     font-family: 'Whitney Book Italic';
     font-style: normal;
     font-weight: normal;
-    src: url('whitneybookitalic.woff') format('woff');
+    src: url('https://kckarnige.is-a.dev/css/fonts/whitney/whitneybookitalic.woff') format('woff');
 }
 
 
@@ -73,5 +73,5 @@
     font-family: 'Whitney Light Italic';
     font-style: normal;
     font-weight: normal;
-    src: url('whitneylightitalic.woff') format('woff');
+    src: url('https://kckarnige.is-a.dev/css/fonts/whitney/whitneylightitalic.woff') format('woff');
 }
