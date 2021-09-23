@@ -1,77 +1,57 @@
 @font-face {
     font-family: 'Whitney Medium';
-    font-style: normal;
-    font-weight: normal;
     src: url('https://kckarnige.is-a.dev/css/fonts/whitney/whitneymedium.woff') format('woff');
 }
 
 
 @font-face {
     font-family: 'Whitney Medium Italic';
-    font-style: normal;
-    font-weight: normal;
     src: url('https://kckarnige.is-a.dev/css/fonts/whitney/whitneymediumitalic.woff') format('woff');
 }
 
 
 @font-face {
     font-family: 'Whitney Bold';
-    font-style: normal;
-    font-weight: normal;
     src: url('https://kckarnige.is-a.dev/css/fonts/whitney/whitneybold.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Whitney Black';
-    font-style: normal;
-    font-weight: normal;
     src: url('https://kckarnige.is-a.dev/css/fonts/whitney/whitney-black.woff') format('woff');
 }
 
 
 @font-face {
     font-family: 'Whitney Semibold';
-    font-style: normal;
-    font-weight: normal;
     src: url('https://kckarnige.is-a.dev/css/fonts/whitney/whitneysemibold.woff') format('woff');
 }
 
 
 @font-face {
     font-family: 'Whitney Book';
-    font-style: normal;
-    font-weight: normal;
     src: url('https://kckarnige.is-a.dev/css/fonts/whitney/whitneybook.woff') format('woff');
 }
 
 
 @font-face {
     font-family: 'Whitney Light';
-    font-style: normal;
-    font-weight: normal;
     src: url('https://kckarnige.is-a.dev/css/fonts/whitney/whitneylight.woff') format('woff');
 }
 
 
 @font-face {
     font-family: 'Whitney Semibold Italic';
-    font-style: normal;
-    font-weight: normal;
     src: url('https://kckarnige.is-a.dev/css/fonts/whitney/WhitneySemiboldItalic.woff') format('woff');
 }
 
 
 @font-face {
     font-family: 'Whitney Book Italic';
-    font-style: normal;
-    font-weight: normal;
     src: url('https://kckarnige.is-a.dev/css/fonts/whitney/whitneybookitalic.woff') format('woff');
 }
 
 
 @font-face {
     font-family: 'Whitney Light Italic';
-    font-style: normal;
-    font-weight: normal;
     src: url('https://kckarnige.is-a.dev/css/fonts/whitney/whitneylightitalic.woff') format('woff');
 }
