@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 395 80" width="395" height="80">
+	<title>New Project</title>
+	<defs>
+		<image  width="335" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAU8AAAAYCAMAAABN7487AAAAAXNSR0IB2cksfwAAAKtQTFRFAAAAconaconaconabYPRVWejVWaiconaconaWWuqconaconaZXrCconaconaVmekconaconaXnG0conaconaW22uconaconacYjYconaWm2tconaconaZnvEconaWGmoZHi/conaconaconaW26uconaconaconaconaZ3zFconaconaconaconaconaconaconaV2imVWaiconaconaWWurconaVWaiV2mn0XwvQgAAADl0Uk5TAB6SmZmZmQJomTWUmQSDmQE8mRNZmRaQmWeZKJiZfJmZEYlKmReOZCOZbioLf0INh5mRUJGRDhER1e3d0AAAAPxJREFUeJztmFcOgzAQRDfZ9N57I71XUu5/siwgAt/BZGWy7wIePY1gbAAfsThiIpkSvsevM51BxCx3Ir3x+8zlEQvcgTTHp7NYonqWuQNpjqezUiWdNe48uuP5rFv1lJ9RQDyfDdLZ5I6jPR+drTZihzuN/ny2Upfq2eNOoz+uz/4AcShfz8C49RxRPcfcYSKAO+VJ54Q7SxRwdBpTqacaHJ8z0jnnjhIJbJ2LpUx5Rdg3zZVsJVVYPte0lTbcQSKC5XMrz57KIJ27gWwlZQDsD7KV1AFwlGdPhcDpTD4v3DF+yDVU4Gaa5j3cM/4JeBiG8eTiFYjvzoRQeQMq2DK42rZjIgAAAABJRU5ErkJggg=="/>
+		<image  width="395" height="80" id="img2" href="https://discord.c99.nl/widget/theme-4/634168893644210186.png"/>
+	</defs>
+	<style>
+		.s0 { opacity: .7;fill: #596bab;stroke: #7289da;paint-order:stroke fill markers;stroke-width: 6 } 
+	</style>
+	<use id="Layer 4 copy 2" href="#img1" x="60" y="4"/>
+	<path id="Shape 2" class="s0" d="m85 34.5h294v37h-294z"/>
+	<use id="Layer 1" href="#img2" x="0" y="0"/>
+</svg>
